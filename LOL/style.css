@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    /* overflow-x:hidden; */
+}
+.main{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    position: relative;
+    fill: white;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .roit_logo{
+    position: relative;
+    display: flex;
+    margin-left: 25px;
+}
+nav .roit_logo:hover{
+    fill: red;
+}
+nav .logo_dropdown{
+    fill: gray;
+    height: 19px;
+    width: 10px;
+    margin: 0px 10px;
+    margin-right: 15px;
+}
+.header{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .content{
+    display: inline-flex;
+    position: relative;
+    height: 63px;
+    width: auto;
+}
+.header a{
+    text-decoration: none;
+    margin: 10px 0px;
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: small;
+    align-items: center;
+    position: relative;
+    display:flex;
+}
+.header a p{
+    padding: 6px 20px;
+}
+.header a:hover p{
+    background-color: rgba(101, 101, 101, 0.675);
+    border-radius: 5px;
+}
+.header .content:hover{
+    border-bottom: 5px solid #0bc6e3;;
+    border-radius: 2px;
+}
+.login{
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+.login div{
+    margin: 0px 15px;
+}
+.login .sign button{
+    background-color: rgba(101, 101, 101, 0.675);
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.login .play button{
+    background-color: #0bc6e3;;
+    font-weight: 800;
+    padding: 6px 15px;
+    border-radius: 13px;
+}
+.login .search{
+    background-color:rgba(101, 101, 101, 0.675);
+    border-radius: 60px;
+    padding: 12px 15px;
+}
+.video_home{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video_home div video{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.video_home div{
+    height:100%;
+    width: 100%;
+    position: absolute;
+
+}
+section{
+    position: relative;
+}
+.video_main video{
+    height: 70vh;
+    width: 90vw;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+}
+.video_main{
+    height: 90vh;
+    width: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.front{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 22px; */
+    padding: 22px;
+}
+.border{
+    position: absolute;
+    /* top: 21px; */
+    /* left: 7px; */
+    width: 95%;
+    height: 98%;
+    border: 2px solid gray;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* aspect-ratio: auto 1954 / 1044; */
+    margin: 6px 1px
+}
+.sec2{
+    height: 85vh;
+}
+.border img{
+    height: auto;
+    width: 600px;
+}
+.logo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.btn{
+    border: 1px solid gray;
+    height: 60px;
+    width: 195px;
+    padding: 4px;
+}
+.btn .text{
+    background-color: #0bc6e3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn .text:hover{
+    background-color: #22d8f4;
+}
+.sec3{
+    background-image: url(Img/download.png);
+    height: 273px;
+    margin-top: -120px;
+    padding-top: 120px;
+    display: flex;
+}
+.sec3 .left_side1{
+    transform: rotate(270deg);
+    height: 60px;
+    width: 120px;
+    font-size: small;
+    font-weight: 800;
+}
+.sec3 .middle{
+    height: 260px;
+    width: 1350px;
+    display: flex;
+    position: relative;
+}
+.part{
+    height: 200px;
+    width: 430px;
+    PADDING: 22px;
+}
+.part img{
+    height: 189px;
+    width: 152px;
+}
+.photoandtext{
+    display: flex;
+    position: relative;
+}
+.part .border{
+    position: absolute;
+    /* top: 21px; */
+    /* left: 7px; */
+    width: 26%;
+    height: 83%;
+    border: 2px solid gray;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* aspect-ratio: auto 1954 / 1044; */
+    margin: 6px 8px;
+}
+
+.sec4{
+    height: 1290px;
+    width:100vw;
+    padding: 150px 0px;
+    background-color: #22d8f4;
+}
+.sec4 .middle{
+    height: 70%;
+    width: 100%;
+    margin: 100px 0px;
+    padding: 200px 0px;
+    background-color: antiquewhite;
+    display: flex;
+    position: relative;
+}
+.middle .nav{
+    width: 50%;
+    height: 80%;
+    background-color: black;
+}
+.middle .img{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.img .outer{
+    width: 600px;
+    height: 600px;
+    background-color: azure;
+    border-radius: 60%;
+    border: 4px solid gray;
+    border-top: 4px solid rgb(250, 200, 2);
+    border-bottom: 4px solid rgb(250, 200, 2);
+    animation: spin 3s infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+@media screen and (max-width: 1336px)  {
+    .header .c7{
+        display: none;
+    }
+    .border img{
+        height: auto;
+        width: 550px;
+    }
+}
+@media screen and (max-width: 1262px)  {
+    .header .c6{
+        display: none;
+    }
+    .border img{
+        height: auto;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1160px)  {
+    .header .c5{
+        display: none;
+    }
+    .border img{
+        height: auto;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1060px)  {
+    .header .c4{
+        display: none;
+    }
+    .header .c6{
+        display: block;
+    }
+    .border img{
+        height: auto;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 980px)  {
+    .header .c7{
+        display: block;
+    }
+    .header .c6{
+        display: none;
+    }
+    .border img{
+        height: auto;
+        width: 350px;
+    }
+}
