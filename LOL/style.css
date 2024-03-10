@@ -290,6 +290,7 @@ section{
     height: 90%;
     width: 90%;
     position: absolute;
+    border: 1px solid gray;
     left: 29px;
     top: 30px;
     z-index: -2;
