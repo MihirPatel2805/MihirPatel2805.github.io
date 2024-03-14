@@ -7,7 +7,6 @@
 .main{
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
 }
 nav{
     height: 10vh;
@@ -309,7 +308,49 @@ section{
       stroke-dashoffset: -300;
     }
   }
-  
+  .sec5{
+    width: 100vw;
+    height: 160vh;
+    background-image: linear-gradient(white,lightblue,black);
+  }
+  .sec5 .effect{
+    width: 100vw;
+    height: 160vh;
+    position: relative;
+  }
+  .back1{
+    position:relative;
+    width: 100vw;
+    display: flex;
+    margin:0px
+  }
+  .back1 img{
+    position: absolute;
+  }
+  .back1{
+    position: absolute;
+  }
+  .effect {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .effect .img img{
+    height: 700px;
+    width: 700px;
+  }
+  .effect .img{
+    z-index: 20;
+  }
+  .effect .border{
+    position: absolute;
+    top:350px;
+    height: 500px;
+    width: 500px;
+    transform: rotate(45deg);
+    border: 2px solid gray;
+  }
   #spinner {
     transform-origin: center;
     animation-name: animation;
