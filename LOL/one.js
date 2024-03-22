@@ -3,8 +3,8 @@ const backImg=document.querySelector('.backImg')
 document.addEventListener('scroll',function(){
     let value = window.scrollY
     console.log(value)
-    if(value>2272 & value<3000){
-        backImg.style.marginTop=(value-2772)/9+'px'
+    if(value>2000 & value<3000){
+        backImg.style.marginTop=(value-2400)/9+'px'
     }
 })
 
