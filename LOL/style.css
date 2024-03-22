@@ -13,10 +13,11 @@ nav{
     width: 100vw;
     background-color:black;
     display: flex;
-    position: relative;
+    position: fixed;
     fill: white;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 nav .roit_logo{
     position: relative;
@@ -157,6 +158,7 @@ section{
 }
 .sec2{
     height: 85vh;
+    margin-top: 74px;
 }
 .border img{
     height: auto;
@@ -312,6 +314,7 @@ section{
     width: 100vw;
     height: 160vh;
     background-image: linear-gradient(white,lightblue,black);
+    overflow: hidden;
   }
   .sec5 .effect{
     width: 100vw;
@@ -343,13 +346,57 @@ section{
   .effect .img{
     z-index: 20;
   }
-  .effect .border{
+  .effect .bor{
     position: absolute;
     top:350px;
     height: 500px;
     width: 500px;
+  }
+  .effect .bor .border{
     transform: rotate(45deg);
     border: 2px solid gray;
+  }
+  .a1 .text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    z-index: 10;
+    margin-right: 10%;
+  }
+  .a1{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+  }
+  .a1 .text :nth-child(1){
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  .a1 .text :nth-child(2){
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+  }
+  .a1 .text :nth-child(3){
+    color: white;
+    font-weight: 200;
+    width: 300px;
+  }
+  .a1 .text :nth-child(4){
+    background-color: #22d8f4;
+    color: white;
+    font-size:10px;
+    margin: 5px;
+    padding: 10px 35px;
   }
   #spinner {
     transform-origin: center;
