@@ -27,11 +27,3 @@ const mousemove1=document.addEventListener('mousemove',function (e) {
     })
 })
 
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '8000px',
-    duration: 2000,
-    reset: true
-  })
-  
-sr.reveal('.c2',{delay: 100})
