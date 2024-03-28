@@ -418,15 +418,19 @@ section{
   }
   .effect .bor{
     position: absolute;
-    top:350px;
-    height: 500px;
-    width: 500px;
+    top: 150px;
+    height: 1000px;
+    width: 1000px;
     overflow-y: hidden;
 
   }
   .effect .bor .border{
     transform: rotate(45deg);
     border: 2px solid gray;
+    height: 50%;
+    width: 50%;
+    left: 23%;
+    top: 22%;
   }
   .a1 .text{
     position: absolute;
