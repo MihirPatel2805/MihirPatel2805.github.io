@@ -2,7 +2,7 @@
     margin: 0;
     top: 0;
     padding: 0;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 }
 .main{
     margin: 0;
@@ -46,6 +46,7 @@ nav .logo_dropdown{
     position: relative;
     height: 63px;
     width: auto;
+    overflow-y: hidden;
 }
 .header a{
     text-decoration: none;
@@ -58,6 +59,7 @@ nav .logo_dropdown{
     align-items: center;
     position: relative;
     display:flex;
+    overflow-y: hidden;
 }
 .header a p{
     padding: 6px 20px;
@@ -104,6 +106,7 @@ nav .logo_dropdown{
     position: absolute;
     top: 0;
     left: 0;
+    overflow-y: hidden;
 }
 .video_home div video{
     height: 100%;
@@ -114,7 +117,7 @@ nav .logo_dropdown{
     height:100%;
     width: 100%;
     position: absolute;
-
+    overflow-y: hidden;
 }
 section{
     position: relative;
@@ -159,6 +162,7 @@ section{
 .sec2{
     height: 85vh;
     margin-top: 74px;
+    overflow-y: hidden;
 }
 .border img{
     height: auto;
@@ -203,6 +207,7 @@ section{
     margin-top: -120px;
     padding-top: 120px;
     display: flex;
+    overflow-y: hidden;
 }
 .sec3 .left_side1{
     transform: rotate(270deg);
@@ -210,6 +215,7 @@ section{
     width: 120px;
     font-size: small;
     font-weight: 800;
+    overflow-y: hidden;
 }
 .sec3 .middle{
     height: 260px;
@@ -221,10 +227,12 @@ section{
     height: 200px;
     width: 430px;
     PADDING: 22px;
+    overflow-y: hidden;
 }
 .part img{
     height: 189px;
     width: 152px;
+    overflow-y: hidden;
 }
 .photoandtext{
     display: flex;
@@ -247,23 +255,28 @@ section{
 
 .sec4{
     height: 700px;
-    width:100vw;
+    width:100%;
     padding: 150px 0px;
+    overflow-y: hidden;
+    
 }
 .sec4 .middle{
-    height: 70%;
+    height: 100%;
     width: 100%;
-    margin: 100px 0px;
-    padding: 200px 0px;
     display: flex;
     position: relative;
+    align-items: center;
+    overflow-y: hidden;
+    
 }
 .middle .nav{
     width: 50%;
-    height: 65%;
+    height: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
+    
+    padding-bottom: 80px;
 
 }
 .middle .nav ul a{
@@ -315,34 +328,27 @@ section{
 }
 .middle .img{
     width: 50%;
-    height: 80%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow-y: hidden;
 }
   #container {
-    width:700px;
-    height: 700px;
+    width: 95%;
+    height: auto;
     position: absolute;
     top: 50%;
     left:43%;
     transform: translate(-50%,-50%);
+    overflow-y: hidden;
   }
   #container img{
-    width:700px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-  }
-  .outer{
-    border-radius: 50%;
-    height: 90%;
-    width: 90%;
-    position: absolute;
-    border: 1px solid gray;
-    left: 34px;
-    top: 34px;
-    z-index: -2;
+    overflow-y: hidden;
   }
   @keyframes sec5animation {
     0%{
@@ -372,31 +378,29 @@ section{
   .sec5{
     width: 100vw;
     height: 160vh;
-    background-image: linear-gradient(white,lightblue,black);
     overflow: hidden;
   }
   .sec5 .effect{
-    width: 100vw;
-    height: 160vh;
-    position: relative;
-  }
-  .back1{
-    position:relative;
-    width: 100vw;
-    display: flex;
-    margin:0px
-  }
-  .back1 img{
-    position: absolute;
-  }
-  .back1{
-    position: absolute;
-  }
-  .effect {
+    width: 100%;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  }
+.back1 img{
+    position: absolute;
+    height: auto;
+    width: 100%;
+}
+.back1{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin:0px;
+    background-image: linear-gradient(white,lightblue,black);
   }
   /* .effect .img img{
     height: 700px;
@@ -409,12 +413,16 @@ section{
     animation-name: sec5animation;
     animation: sec5animation 9s infinite alternate;
     background-size: 700px 700px;
+    position: absolute;
+    top: 20%;
   }
   .effect .bor{
     position: absolute;
     top:350px;
     height: 500px;
     width: 500px;
+    overflow-y: hidden;
+
   }
   .effect .bor .border{
     transform: rotate(45deg);
@@ -474,6 +482,28 @@ section{
     100% { transform: rotate(360deg); }
   }
 
+  .sec6{
+    background-color: black;
+    width: 100vw;
+    height: 160vh;
+  }
+  .sec6 .main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(Img/summonersrift1.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+  }
+  .sec6 .main .content{
+    height: 40%;
+    width: 90%;
+    border: 2px solid gray;
+    margin-bottom: 160px;
+  }
 @media screen and (max-width: 1336px)  {
     .header .c7{
         display: none;
