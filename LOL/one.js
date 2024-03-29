@@ -26,4 +26,3 @@ const mousemove1=document.addEventListener('mousemove',function (e) {
         move.style.transition="0.3s"
     })
 })
-
